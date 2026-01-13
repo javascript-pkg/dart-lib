@@ -1,8 +1,5 @@
-#! /usr/bin/env -S deno run
-//import { readLines } from "https://deno.land/std@0.224.0/io/mod.ts";
-import { getStdin } from "./stdinReader.ts";
+import { readLines } from "https://deno.land/std@0.224.0/io/mod.ts";
 
-/*
 export async function getStdin(defaultStr?: string) {
   if (Deno.isatty(Deno.stdin.rid)) {
     return defaultStr ?? "";
@@ -13,7 +10,3 @@ export async function getStdin(defaultStr?: string) {
   }
   return stdin.join("\n");
 }
-
-console.log(await getStdin());
-*/
-console.log(await getStdin());
