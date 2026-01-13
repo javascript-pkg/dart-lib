@@ -28,3 +28,5 @@ git tag -a "$tag" -m"$tag"
 git push origin "$tag"
 git push origin HEAD:main
 git remote -v
+
+echo "URL: https://github.com/javascript-pkg/dart-lib/raw/$tag/stdinReader.ts"
