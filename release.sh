@@ -20,7 +20,7 @@ find . -name obj -exec rm -rf {} +
 
 #exit 0
 
-tag="dart-lib-v$version"
+tag="v$version"
 cd $cwd
 git add .
 git commit -m"$tag"
